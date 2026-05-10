@@ -1,0 +1,24 @@
+table_name,grain,primary_use,source_tables
+ads_daily_overview,1 row = 1 stat_date,daily dashboard and KPI cards,tdm_vehicle_day_profile;tdm_time_slot_day_profile
+ads_daily_growth_compare,1 row = 1 stat_date,day-over-day change analysis,ads_daily_overview
+ads_hourly_trend,1 row = 1 stat_date + 1 biz_hour,hourly trend charts,tdm_time_slot_day_profile
+ads_peak_window_top3_daily,1 row = 1 stat_date + 1 rank,peak window ranking,ads_hourly_trend
+ads_time_period_summary_daily,1 row = 1 stat_date + 1 time_period_type,time period behavior summary,tdm_trip_profile
+ads_trip_structure_daily,1 row = 1 stat_date + trip structure combination,trip structure distribution,tdm_trip_profile
+ads_trip_efficiency_by_period_daily,1 row = 1 stat_date + 1 time_period_type,trip efficiency comparison by time period,ads_time_period_summary_daily
+ads_trip_complexity_daily,1 row = 1 stat_date,trip complexity monitoring,tdm_trip_profile
+ads_vehicle_profile_5d,1 row = 1 devid,driver and vehicle profiling,tdm_vehicle_5d_profile
+ads_vehicle_segment_summary_5d,1 row = 1 driver segment,driver segmentation summary,ads_vehicle_profile_5d
+ads_vehicle_daily_operating_style,1 row = 1 stat_date + 1 devid,daily operating style for each vehicle,tdm_vehicle_day_profile
+ads_vehicle_road_preference_topn,1 row = 1 devid + 1 road_id,vehicle road preference topn,tdm_vehicle_road_preference_5d
+ads_vehicle_route_stability_5d,1 row = 1 devid,route stability profiling,tdm_vehicle_road_preference_5d;tdm_vehicle_5d_profile
+ads_road_hotspot_feature_daily,1 row = 1 stat_date + 1 road_id,road hotspot and road ranking,tdm_road_day_profile
+ads_road_top20_daily,1 row = 1 stat_date + 1 rank,top20 roads per day,ads_road_hotspot_feature_daily
+ads_road_watchlist_daily,1 row = 1 stat_date + 1 road_id,road watchlist and watch score,ads_road_hotspot_feature_daily
+ads_region_hotspot_role_daily,1 row = 1 stat_date + 1 grid_id,regional hotspot map and pickup/dropoff bias,tdm_region_grid_day_profile
+ads_region_top20_daily,1 row = 1 stat_date + 1 rank,top20 hotspot regions per day,ads_region_hotspot_role_daily
+ads_dispatch_focus_grid_daily,1 row = 1 stat_date + 1 grid_id,dispatch focus regions,ads_region_hotspot_role_daily
+ads_region_bias_daily,1 row = 1 stat_date + 1 grid_id,regional bias analysis,tdm_region_grid_day_profile
+ads_abnormal_vehicle_daily_detail,1 row = 1 stat_date + 1 devid,abnormal vehicle detail,tdm_vehicle_day_profile
+ads_abnormal_vehicle_daily_summary,1 row = 1 stat_date,abnormal vehicle trend,ads_abnormal_vehicle_daily_detail
+ads_data_quality_daily,1 row = 1 stat_date,data quality monitoring,tdm_trip_profile;tdm_vehicle_day_profile

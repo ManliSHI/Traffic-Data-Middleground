@@ -1,0 +1,32 @@
+{
+  "status": "success",
+  "build_started_at_utc": "2026-04-10T15:03:07+00:00",
+  "build_finished_at_utc": "2026-04-10T15:03:17+00:00",
+  "chart_count": 23,
+  "chart_files": [
+    "01_daily_trip_vehicle_combo.png",
+    "02_daily_avg_speed.png",
+    "03_daily_night_peak_active_vehicles.png",
+    "04_daily_dod_growth.png",
+    "05_daily_speed_change.png",
+    "06_hourly_trip_trend.png",
+    "07_hourly_vehicle_trend.png",
+    "08_hourly_speed_trend.png",
+    "09_hourly_trip_heatmap.png",
+    "10_peak_window_top3_daily.png",
+    "11_peak_window_share_daily.png",
+    "12_trip_distance_structure.png",
+    "13_trip_speed_structure.png",
+    "14_trip_distance_duration_matrix.png",
+    "15_driver_activity_structure.png",
+    "16_core_full_attendance_counts.png",
+    "17_driver_top20_by_trip.png",
+    "18_road_top20_by_day.png",
+    "19_road_peak_top20_by_day.png",
+    "20_road_direction_bias_distribution.png",
+    "21_region_hotspot_top20_map.png",
+    "22_region_pickup_dropoff_top10.png",
+    "23_region_role_bias_distribution.png"
+  ],
+  "manifest_file": "chart_manifest.csv"
+}
