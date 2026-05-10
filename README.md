@@ -22,7 +22,6 @@
 ## 技术架构
 
 本项目采用分层数据架构，整体技术架构如下图所示：
-<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/1d79f3f8-ea0e-49f8-9555-07b5cde14791" />
 
 
 ## 四层数据体系
