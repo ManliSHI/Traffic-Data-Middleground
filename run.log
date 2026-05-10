@@ -1,0 +1,46 @@
+Processing trips_150103.jld2 (152553 trips)
+  processed 50000/152553 trips
+  processed 100000/152553 trips
+  processed 150000/152553 trips
+Processing trips_150104.jld2 (245865 trips)
+  processed 50000/245865 trips
+  processed 100000/245865 trips
+  processed 150000/245865 trips
+  processed 200000/245865 trips
+Processing trips_150105.jld2 (282894 trips)
+  processed 50000/282894 trips
+  processed 100000/282894 trips
+  processed 150000/282894 trips
+  processed 200000/282894 trips
+  processed 250000/282894 trips
+Processing trips_150106.jld2 (266618 trips)
+  processed 50000/266618 trips
+  processed 100000/266618 trips
+  processed 150000/266618 trips
+  processed 200000/266618 trips
+  processed 250000/266618 trips
+Processing trips_150107.jld2 (251601 trips)
+  processed 50000/251601 trips
+  processed 100000/251601 trips
+  processed 150000/251601 trips
+  processed 200000/251601 trips
+  processed 250000/251601 trips
+Cleaning summary
+  total_trips: 1199531
+  valid_trips: 1199531
+  invalid_trips: 0
+  empty_matched_trips: 4087
+  total_points: 50781857
+  total_segments: 47168898
+  total_route_edges: 94413556
+  total_route_geometries: 45901643
+  frac_missing: 0
+  frac_out_of_range: 0
+  point_count_distribution: min=4 p50=23 p95=145 max=1927
+  matched_segment_distribution: min=0 p50=22 p95=135 max=1097
+Wrote cleaned_output_full_final\trips_clean.parquet
+Wrote cleaned_output_full_final\gps_points_clean.parquet
+Wrote cleaned_output_full_final\matched_segments_clean.parquet
+Wrote cleaned_output_full_final\route_edges_clean.parquet
+Wrote cleaned_output_full_final\route_geometries_clean.parquet
+Wrote cleaned_output_full_final\cleaning_report.json
