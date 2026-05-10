@@ -77,32 +77,32 @@
 ## 项目结构
 traffic-data-middleground/
 │
-├── README.md # 项目说明文档
+├── README.md
 │
-├── ods/ # 贴源数据层
-│ ├── readme.md
-│ └── README_DataPreparation.md
+├── ods/
+│   ├── readme.md
+│   └── README_DataPreparation.md
 │
-├── dw/ # 统一数仓层
-│ ├── cleaning_report.json # 清洗报告
-│ ├── DATA_HANDOFF_TDM.md # 交接文档
-│ └── run.log # 运行日志
+├── dw/
+│   ├── cleaning_report.json
+│   ├── DATA_HANDOFF_TDM.md
+│   └── run.log
 │
-├── tdm/ # 标签数据层
-│ ├── build_tdm_layer.py # TDM构建脚本
-│ ├── DATA_HANDOFF_ADS.md # 交接文档
-│ ├── tdm_build_summary.json # 构建摘要
-│ ├── tdm_tag_definition.csv # 标签定义文件
-│ └── TDM标签设计_交付给Codex.md # 标签设计文档
+├── tdm/
+│   ├── build_tdm_layer.py
+│   ├── DATA_HANDOFF_ADS.md
+│   ├── tdm_build_summary.json
+│   ├── tdm_tag_definition.csv
+│   └── TDM标签设计_交付给Codex.md
 │
-├── ads/ # 应用数据层
-│ ├── preview/ # CSV预览文件（23个）
-│ ├── charts_output/ # PNG图表（23张）
-│ ├── *.md # 5个设计文档
-│ ├── *.py # 构建脚本
-│ └── chart_manifest.csv # 图表清单
+├── ads/
+│   ├── preview/                 # CSV预览文件（23个）
+│   ├── charts_output/           # PNG图表（23张）
+│   ├── *.md                     # 5个设计文档
+│   ├── *.py                     # 构建脚本
+│   └── chart_manifest.csv
 │
-└── visualisation/ # 可视化
+└── visualisation/
 
 ## 技术栈
 
