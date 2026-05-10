@@ -1,4 +1,4 @@
-<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/1d79f3f8-ea0e-49f8-9555-07b5cde14791" /># 哈尔滨出租车数据中台
+# 哈尔滨出租车数据中台
 
 基于哈尔滨出租车GPS轨迹数据的交通数据中台系统，实现路况监测、热点区域分析、轨迹可视化、长短单推荐及司机服务榜等功能。
 
@@ -22,7 +22,7 @@
 ## 技术架构
 
 本项目采用分层数据架构，整体技术架构如下图所示：
-
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/1d79f3f8-ea0e-49f8-9555-07b5cde14791" />
 
 
 ## 四层数据体系
@@ -45,33 +45,28 @@
 | 司机服务榜 | 片区司机排行、服务之星识别、运力健康度评估 | 司机接单排行、片区服务覆盖组合图 |
 
 ## 项目结构
+```text
 traffic-data-middleground/
-│
 ├── README.md
-│
+├── README_DataPreparation.md
+├── DATA_HANDOFF_TDM.md
+├── DATA_HANDOFF_ADS.md
+├── TDM标签设计_交付给Codex.md
+├── run.log
 ├── ods/
-│   ├── readme.md
-│   └── README_DataPreparation.md
-│
+│   └── readme.md
 ├── dw/
-│   ├── cleaning_report.json
-│   ├── DATA_HANDOFF_TDM.md
-│   └── run.log
-│
+│   └── cleaning_report.json
 ├── tdm/
 │   ├── build_tdm_layer.py
-│   ├── DATA_HANDOFF_ADS.md
 │   ├── tdm_build_summary.json
-│   ├── tdm_tag_definition.csv
-│   └── TDM标签设计_交付给Codex.md
-│
+│   └── tdm_tag_definition.csv
 ├── ads/
-│   ├── preview/                 # CSV预览文件（23个）
-│   ├── charts_output/           # PNG图表（23张）
-│   ├── *.md                     # 5个设计文档
-│   ├── *.py                     # 构建脚本
-│   └── chart_manifest.csv
-│
+│   ├── preview/                # CSV预览文件（23个）
+│   ├── charts_output/          # PNG图表（23张）
+│   ├── chart_manifest.csv
+│   ├── *.md                    # 5个设计文档
+│   └── *.py                    # 构建脚本
 └── visualisation/
 
 ## 技术栈
