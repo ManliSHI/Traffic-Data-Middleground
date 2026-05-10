@@ -1,0 +1,105 @@
+{
+  "status": "success",
+  "build_started_at_utc": "2026-04-10T08:54:36+00:00",
+  "build_finished_at_utc": "2026-04-10T08:57:22+00:00",
+  "duration_seconds": 166.43,
+  "input_root": "E:\\cleaned_output_full_final",
+  "output_root": "E:\\cleaned_output_full_final\\tdm_output",
+  "source_files": [
+    "trips_clean.parquet",
+    "gps_points_clean.parquet",
+    "matched_segments_clean.parquet",
+    "route_edges_clean.parquet",
+    "route_geometries_clean.parquet"
+  ],
+  "files_exist": {
+    "tdm_trip_profile": true,
+    "tdm_vehicle_day_profile": true,
+    "tdm_vehicle_5d_profile": true,
+    "tdm_vehicle_road_preference_5d": true,
+    "tdm_road_day_profile": true,
+    "tdm_time_slot_day_profile": true,
+    "tdm_region_grid_day_profile": true,
+    "tdm_tag_definition": true,
+    "tdm_build_summary": true
+  },
+  "row_counts": {
+    "tdm_trip_profile": 1199531,
+    "tdm_vehicle_day_profile": 55265,
+    "tdm_vehicle_5d_profile": 12472,
+    "tdm_vehicle_road_preference_5d": 124573,
+    "tdm_road_day_profile": 83478,
+    "tdm_time_slot_day_profile": 120,
+    "tdm_region_grid_day_profile": 2241
+  },
+  "expected_row_counts": {
+    "tdm_trip_profile": 1199531,
+    "tdm_vehicle_day_profile": 55265,
+    "tdm_vehicle_5d_profile": 12472,
+    "tdm_vehicle_road_preference_5d": 124573,
+    "tdm_road_day_profile": 83478,
+    "tdm_time_slot_day_profile": 120,
+    "tdm_region_grid_day_profile": 2241
+  },
+  "row_count_checks": {
+    "tdm_trip_profile": {
+      "expected": 1199531,
+      "actual": 1199531,
+      "diff": 0
+    },
+    "tdm_vehicle_day_profile": {
+      "expected": 55265,
+      "actual": 55265,
+      "diff": 0
+    },
+    "tdm_vehicle_5d_profile": {
+      "expected": 12472,
+      "actual": 12472,
+      "diff": 0
+    },
+    "tdm_vehicle_road_preference_5d": {
+      "expected": 124573,
+      "actual": 124573,
+      "diff": 0
+    },
+    "tdm_road_day_profile": {
+      "expected": 83478,
+      "actual": 83478,
+      "diff": 0
+    },
+    "tdm_time_slot_day_profile": {
+      "expected": 120,
+      "actual": 120,
+      "diff": 0
+    },
+    "tdm_region_grid_day_profile": {
+      "expected": 2241,
+      "actual": 2241,
+      "diff": 0
+    }
+  },
+  "tag_definition_count": 96,
+  "validation_counts": {
+    "trip_stat_date_mismatch_cnt": 0,
+    "matched_time_priority_mismatch_cnt": 0,
+    "gps_fallback_mismatch_cnt": 0,
+    "negative_trip_distance_cnt": 0,
+    "negative_avg_speed_cnt": 0,
+    "blank_trip_frequency_level_cnt": 0,
+    "blank_driver_activity_level_cnt": 0,
+    "blank_road_activity_level_cnt": 0,
+    "blank_grid_activity_level_cnt": 0
+  },
+  "validation_passed": true,
+  "file_sizes_bytes": {
+    "tdm_trip_profile": 42564572,
+    "tdm_vehicle_day_profile": 2315570,
+    "tdm_vehicle_5d_profile": 504293,
+    "tdm_vehicle_road_preference_5d": 824321,
+    "tdm_road_day_profile": 1666425,
+    "tdm_time_slot_day_profile": 8733,
+    "tdm_region_grid_day_profile": 51663,
+    "tdm_tag_definition": 19108,
+    "tdm_build_summary": 3075
+  }
+}
