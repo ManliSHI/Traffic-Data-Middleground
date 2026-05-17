@@ -1,7 +1,11 @@
 # Data Preparation
 ## Data Introduction
 The dataset contains 1 million+ trips collected by 1,3000+ taxi cabs during 5 days (2015.1.3-2015.1.7) and are stored as `.h5` files. Each h5 file contains `n` trips of the day. For each trip, it has three fields `lon` (longitude), `lat` (latitude), `tms` (timestamp). 
-![img_h5.png](img_h5.png)
+- trips_150103.h5
+- trips_150104.h5
+- trips_150105.h5
+- trips_150106.h5
+- trips_150107.h5
 ## Requirements
 - Windows 10/11
 - WSL2 (Ubuntu 20.04)
@@ -85,7 +89,11 @@ The 5 `.jld2` files contains the following information:
 - mapping results of input points
 - additional points during mapmatching and additional information (road fractions, geo location, direction)
 
-![img_jld2.png](img_jld2.png)
+- trips_150103.jld2
+- trips_150104.jld2
+- trips_150105.jld2
+- trips_150106.jld2
+- trips_150107.jld2
 
 ## References:
 [Learning Travel Time Distributions with Deep Generative Model](http://www.ntu.edu.sg/home/lixiucheng/pdfs/www19-deepgtt.pdf) (**WWW-19**)
