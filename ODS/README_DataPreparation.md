@@ -84,10 +84,9 @@ Once the map matching process is finished, we will get 5 `jld2` files.
 (`trips_150103.jld2` to `trips_150107.jld2`).
 
 The 5 `.jld2` files contains the following information:
-
-- input roads and points
-- mapping results of input points
-- additional points during mapmatching and additional information (road fractions, geo location, direction)
+input roads and points
+mapping results of input points
+additional points during mapmatching and additional information (road fractions, geo location, direction)
 
 - trips_150103.jld2
 - trips_150104.jld2
